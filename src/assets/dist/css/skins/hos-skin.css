@@ -1,0 +1,174 @@
+/* Header */
+.main-header .navbar {
+    /* background-color: #217345; */
+    background-image: linear-gradient(to right, #096FD3 ,#19C6FE);
+}
+.main-header .navbar h3 {
+    color: #ffffff;
+    /* font-family: "THSarabunNewRegular", sans-serif; */
+    font-family: "Kanit",  sans-serif;
+    font-size: 25px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav-tabs a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li >a:hover{
+    text-decoration: none;
+    background-color: #F0F8FF;
+    color: #096FD3;
+}
+
+#tab a{
+    text-decoration: none;
+    color: black;
+}
+
+#tab a.active{
+    text-decoration: none;
+    background-color: #096FD3;
+    color: #ffffff;
+}
+
+#tab>li.active>a{
+    text-decoration: none;
+    color: #096FD3;
+    background-color: transparent;
+    
+}
+
+/* Body */
+.content-wrapper{
+    /* background-color: #C8F8C8; */
+    /* background-color: #F5F5F5; */
+    background-color: #CCD1D1;
+}
+
+.box-header > .fa,
+.box-header > .glyphicon,
+.box-header > .ion,
+.box-header .box-title {
+    font-family: "Kanit",  sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+}
+
+.form-control{
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1px solid rgb(119, 124, 129);
+
+    /* border: 1px solid #096FD3; */
+    /* border-color: #d2d6de; */
+    font-family: "Kanit",  sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: normal;
+
+}
+
+.box{
+    /* background-color: #d2d6de; */
+    background-color: #F5F5F5;
+}
+.box.box-info {
+    border-top-color: #096FD3;
+}
+
+.table-bordered{
+    border: 1px solid #096FD3;
+}
+
+th{
+    text-align: center;
+    background-color: #A9CCE3;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #096FD3;
+}
+
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  background-color: #ffffff;
+}
+
+.table-bordered > tbody > tr:hover > td,
+.table-bordered > tfoot > tr:hover > td {
+  background-color: rgb(230, 230, 230);
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+.box-header.with-border {
+  /* border-bottom: 1px solid #CFCEC9; */
+  border-bottom: 1px solid #096FD3;
+}
+
+.form-control:focus {
+    border-color: #096FD3;
+    box-shadow: none;
+  }
+
+
+
+
+/* Tab */
+.tab-pane .row a{
+    text-decoration: none;
+    color: #096FD3;
+}
+
+.tab-pane .row a:hover,
+.tab-pane .row a:active{
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #096FD3;
+    padding: 3px 6px 3px 3px;
+}
+
+
+/* Sidebar */
+.main-sidebar{
+    background-color: #1B4F72;
+}
+
+.sidebar-menu a{
+    color: #ffffff;
+}
+
+.sidebar-menu li:hover,
+.sidebar-menu li:focus,
+.sidebar-menu>li.active{
+    background-color: rgb(72, 108, 150);
+}
+
+.sidebar-menu>li>a {
+    border-left: 4px solid transparent;
+}
+
+.sidebar-menu>li.active>a {
+    border-left-color: #2C517B;
+}
